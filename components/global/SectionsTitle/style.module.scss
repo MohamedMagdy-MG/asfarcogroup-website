@@ -1,0 +1,17 @@
+.sectionTitle {
+  color: #39393c;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  margin: 0;
+  span {
+    color: #e1561b;
+  }
+  @media (max-width: 600px) {
+    font-size: 34px;
+    line-height: 44px;
+  }
+}

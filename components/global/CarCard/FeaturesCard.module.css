@@ -1,0 +1,8 @@
+.carImage {
+  width: 100% !important;
+  height: 230px !important;
+  object-fit: cover !important;
+  position: static !important;
+  border-radius: 4px;
+  overflow: hidden;
+}

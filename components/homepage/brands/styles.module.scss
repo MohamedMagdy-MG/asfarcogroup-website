@@ -1,0 +1,17 @@
+.brand_img {
+  position: initial !important;
+  object-fit: contain !important;
+}
+
+.images_container {
+  @media (max-width: 600px) {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 8px;
+    scroll-behavior: auto;
+    &::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+    }
+  }
+}

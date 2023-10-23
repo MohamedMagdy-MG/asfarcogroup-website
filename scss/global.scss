@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #232220;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #e1561b;
+  }
+}
+
+.css-17ggyh3-MuiButtonBase-root-MuiMenuItem-root-MuiMultiSectionDigitalClockSection-item.Mui-selected,
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected,
+.css-1beqopj-MuiPickersYear-yearButton.Mui-selected {
+  background-color: #e1561b !important;
+}
+
+.css-17ggyh3-MuiButtonBase-root-MuiMenuItem-root-MuiMultiSectionDigitalClockSection-item:hover,
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root:hover,
+.css-1beqopj-MuiPickersYear-yearButton:hover {
+  background-color: #f18e63 !important;
+}
+
+.css-1dleds2-MuiMultiSectionDigitalClock-root {
+  border: 0px !important;
+}
+body {
+  background-color: #fefaf7;
+}
+.mantine-TextInput-input,
+.mantine-PasswordInput-input,
+.mantine-Select-input {
+  height: 54px;
+  border-radius: 4px;
+  border: 1px solid #d2d0cf;
+  &:focus {
+    padding-left: 9px;
+    border: 1px solid #d2d0cf;
+    border-left: 4px solid #ff9900;
+  }
+}
+
+.mantine-PasswordInput-input {
+  direction: ltr !important;
+
+  &:focus-within {
+    padding-left: 9px;
+    border: 1px solid #d2d0cf;
+  }
+}
+
+.mantine-PasswordInput-innerInput {
+  height: 100%;
+  font-size: 20px;
+  border-radius: 4px;
+  direction: ltr !important;
+
+  &:focus {
+    padding-left: 9px;
+    border-left: 4px solid #ff9900;
+  }
+}
+
+.mantine-PasswordInput-visibilityToggle {
+  color: #ff9900;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.mantine-TextInput-label,
+.mantine-PasswordInput-label,
+.mantine-Select-label {
+  color: #626260;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20.8px; /* 130% */
+  padding-bottom: 4px;
+}
+
+.mantine-Divider-label {
+  color: #b2afae;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20.8px; /* 130% */
+}
+
+
+.mantine-Tabs-tab {
+  &[data-active]  {
+    .mantine-Tabs-tabLabel	 {
+      // font-weight: 700 !important;
+      color: #2B2A29;
+    }
+  }
+}
+
+
+.mantine-Progress-root {
+  left: 0;
+  position: fixed;
+  height: 0.1875rem;
+  background-color: transparent; 
+  border-radius: 0rem;
+  top: 0;
+  z-index: 999999999;
+  width: 100%;
+}
+.css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-actionBar {
+  display: none;
+}

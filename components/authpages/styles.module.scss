@@ -1,0 +1,10 @@
+.inputStyle {
+    >input {
+        height: 54px;
+        border-radius: 8px;
+        border: 1px solid #D2D0CF;
+    }
+    &:focus {
+        border-left: 4px solid #FF9900 !important;
+    }
+}

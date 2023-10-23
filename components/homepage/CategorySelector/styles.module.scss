@@ -1,0 +1,22 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+  &:hover {
+    border: 2px solid #e1561b;
+  }
+  &[data-active] {
+    border: 2px solid #e1561b;
+  }
+  @media (max-width: 600px) {
+    width: calc(100% / 3.2);
+  }
+}
+
+
+.category_container {
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+}

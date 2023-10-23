@@ -1,0 +1,12 @@
+.addressCard {
+  border-radius: 4px;
+  border: 1px solid #d2d0cf;
+  background: #f3f0ee;
+  padding: 12px 14px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 16px;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
